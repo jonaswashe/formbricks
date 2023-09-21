@@ -90,7 +90,7 @@ certificatesResolvers:
     acme:
       email: $email_address
       storage: acme.json
-      caServer: "https://acme-v01.api.letsencrypt.org/directory"
+      caServer: "https://acme-v02.api.letsencrypt.org/directory"
       tlsChallenge: {}
 EOT
 
